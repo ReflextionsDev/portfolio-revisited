@@ -1,0 +1,59 @@
+* {
+    border: black solid 2px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: lightblue;
+}
+
+.nav_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.nav_top-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav_top-spacer {
+
+}
+
+.nav_top-pages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_top-page {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+
+.nav-top-pages_home {
+
+}
+
+.nav-top-pages_projects {
+    
+}
+
+.nav-top-pages_arhive {
+    
+}
+
+
+/* MAIN */
+
