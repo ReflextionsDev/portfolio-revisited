@@ -19,6 +19,7 @@ background-size: 100%;
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 /* HEADER */
@@ -51,19 +52,9 @@ header {
     padding: 0px 20px;
 }
 
-
-.nav-top-pages_home {
-
+.nav_top-pages_home {
+    text-decoration: underline;
 }
-
-.nav-top-pages_projects {
-    
-}
-
-.nav-top-pages_arhive {
-    
-}
-
 
 /* MAIN */
 
@@ -87,6 +78,8 @@ main {
     background-color: rgba(255, 255, 255, 0.24);
     box-shadow: 0px 1px 3px rgba(12, 13, 255, 0.1);
     border-radius: 25px;
+
+    color: rgb(26, 63, 63);
 }
  
 .card_content-item {
