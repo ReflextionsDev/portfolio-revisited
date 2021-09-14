@@ -1,10 +1,12 @@
-* {
+/* * {
     border: black solid 2px;
-}
+} */
 
 body {
     margin: 0;
     padding: 0;
+
+    
 }
 
 /* HEADER */
@@ -56,4 +58,72 @@ header {
 
 
 /* MAIN */
+main {
+    background-color: lightgrey;
 
+}
+
+
+.card {
+    padding: 100px 200px;
+    border: black solid 2px;
+
+    
+
+    /* background-image: url(assets/bg_new.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+
+}
+
+.card_content {
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    height: 350px;   
+    margin-bottom: 80px;
+}
+.card_content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 2px;
+}
+
+.card_content-item {
+    padding: 10px;
+    border: black solid 2px;
+}
+
+
+.card_content-name {
+    font-size: 500%
+    /* margin-top: 100px; */
+}
+
+.card_content-title {
+    font-size: large
+}
+
+.card_content-links {
+    border: red solid 2px;
+    display: flex;
+
+
+}
+
+.card_content-link {
+    border: black solid 2px;
+    padding: 10px;
+    margin: 0px 20px;
+
+}
+
+.spotlight {
+
+}
